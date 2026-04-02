@@ -15,6 +15,12 @@ This project utilizes the **ESP32 DevKit V1** and **nRF24L01+PA+LNA** to create 
 - **Connection Status:** Onboard Blue LED indicates active ACK (Acknowledgement) from the receiver.
 
 ---
+## ⚙️ Custom Coreless Motor Driver
+This project includes a **Custom-Built Micro Motor Driver** specifically designed for high-RPM coreless motors.
+- **Drive Type:** MOSFET-based PWM control.
+- **Compatibility:** Optimized for 3.7V - 4.2V (1S) coreless motors.
+- **Integrated Failsafe:** Motor power is automatically cut by the ESP32 if the nRF24L01 signal is lost for more than 500ms.
+---
 
 ## 🔌 Hardware Pin Mapping
 
